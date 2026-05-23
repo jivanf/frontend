@@ -279,10 +279,7 @@ watch(
                   v-if="idx > 0"
                   class="sentry-exceptions__caused"
                 >Caused by</span>
-                <SentryException
-                  :exception="e"
-                  :max-frames="10"
-                />
+                <SentryException :exception="e" />
               </div>
             </div>
           </div>
